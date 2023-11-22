@@ -22,7 +22,7 @@ button {
   border: none;
   position: relative;
   background: #100720;
-  transition: 0.1s;
+  transition: 2s;
 }
 
 button::after {
