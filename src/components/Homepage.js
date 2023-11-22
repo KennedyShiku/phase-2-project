@@ -17,7 +17,7 @@ const HomePage = () => {
         </div>
       </div>
       <div className="intro-image">
-        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=029" />
+        <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=029" />       
       </div>
       <div>
         
