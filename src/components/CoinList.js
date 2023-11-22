@@ -12,15 +12,17 @@ const CoinList = () => {
   }, []);
 
   return ( 
-    <div className="coin-list">
+    <div>
       <h2>Top Crypto Coins</h2>
-      {coins.map((coin) => (
-        <div className="coin-card" key={coin.id}>
-          <h3>{coin.name}</h3><p>{coin.symbol}</p>
-          <img src={coin.image} alt={coin.name} />
-          <p>Price in USD: {coin.price}</p>
-        </div>
-      ))}
+      <div className="coin-list">
+        {coins.map((coin) => (
+          <div className="coin-card" key={coin.id}>
+            <h3>{coin.name}</h3><p>{coin.symbol}</p>
+            <img src={coin.image} alt={coin.name} />
+            <p>Price in USD: {coin.price}</p>
+          </div>
+        ))}
+      </div>
     </div>
    );
 }
